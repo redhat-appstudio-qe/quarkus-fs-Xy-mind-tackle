@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-m5x0
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-kfgy-tenant/quarkus/devfile-sample-code-with-quarkus-m5x0@sha256:ef33ad2bb6cea1d63a51de5551e9bf33f0e1cfd4510909e6c183f294d6805ecb
+        name: my-java-quarkus
+        resources: {}
+status: {}
